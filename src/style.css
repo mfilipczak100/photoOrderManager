@@ -1,0 +1,153 @@
+.bigButton{
+    -fx-pref-width: 250;
+    -fx-pref-height: 120;
+    -fx-background-radius: 50;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 15, 0.1, 0.0, 5.0);
+}
+
+.bigButton:hover{
+    -fx-background-color: linear-gradient(to bottom, #22c0f8, #1dbcf7, #1ab8f6, #1ab3f5, #1baff4, #0daaf5, #01a6f6, #00a1f7, #009bfa, #0094fc, #008dfe, #0085ff);
+}
+
+.mediumButton{
+    -fx-pref-width: 250;
+    -fx-pref-height: 100;
+    -fx-background-radius: 40;
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 15, 0.1, 0.0, 5.0);
+}
+
+.mediumButton:hover{
+    -fx-background-color: linear-gradient(to bottom, #22c0f8, #1dbcf7, #1ab8f6, #1ab3f5, #1baff4, #0daaf5, #01a6f6, #00a1f7, #009bfa, #0094fc, #008dfe, #0085ff);
+}
+
+.formatButton{
+    -fx-max-width: 400;
+    -fx-pref-height: 40;
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 15, 0.1, 0.0, 5.0);
+}
+
+.formatButton:hover{
+    -fx-background-color: linear-gradient(to bottom, #22c0f8, #1dbcf7, #1ab8f6, #1ab3f5, #1baff4, #0daaf5, #01a6f6, #00a1f7, #009bfa, #0094fc, #008dfe, #0085ff);
+}
+
+.formatButton:pressed{
+    -fx-background-color: darkblue;
+}
+
+.bigButton:pressed{
+    -fx-background-color: darkblue;
+}
+
+.labelBox{
+    -fx-pref-height: 130;
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 45, 0.2, 0.0, 0.0);
+}
+
+.infoLabel{
+    -fx-font-size: 44;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.loadingLabel{
+    -fx-font-size: 44;
+    -fx-alignment: center;
+}
+
+.customList{
+    -fx-background-color: whitesmoke;
+    /*-fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 45, 0.2, 0.0, 0.0);*/
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0, 0.0, 0.0);
+    -fx-background-radius: 20;
+    -fx-padding: 20;
+}
+
+.customList .list-cell{
+    -fx-pref-height: 70;
+    -fx-alignment: center;
+    -fx-font-size: 24;
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 30;
+}
+
+.customList .list-cell:filled:hover{
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-text-fill: white;
+}
+
+.customList .list-cell:selected{
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+}
+
+.instructionsLabel{
+    -fx-font-size: 44;
+}
+
+.decoratedPanel{
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 50;
+    -fx-effect: innershadow( gaussian, rgba(0, 0, 0, 0.3), 20, 0, 0, 0);
+    -fx-padding: 20;
+
+}
+
+.undecoratedPanel{
+
+}
+
+.roundButton{
+    -fx-pref-width: 36;
+    -fx-pref-height: 36;
+    -fx-background-radius: 18;
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 10, 0.1, 0.0, 5.0);
+}
+
+.roundButton:pressed{
+    -fx-background-color: darkblue;
+}
+
+.roundButton:hover{
+    -fx-background-color: linear-gradient(to bottom, #22c0f8, #1dbcf7, #1ab8f6, #1ab3f5, #1baff4, #0daaf5, #01a6f6, #00a1f7, #009bfa, #0094fc, #008dfe, #0085ff);
+}
+
+.enlargeButton{
+    -fx-pref-width: 100;
+    -fx-pref-height: 36;
+    -fx-background-radius: 18;
+    -fx-background-color: linear-gradient(to bottom, #36cbff, #31c6fd, #2dc0fb, #2abbf8, #29b5f6, #22b1f6, #1dadf6, #19a9f6, #0aa6f9, #00a2fb, #009ffd, #009bff);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 10, 0.1, 0.0, 5.0);
+}
+
+.enlargeButton:pressed{
+    -fx-background-color: darkblue;
+}
+
+.enlargeButton:hover{
+    -fx-background-color: linear-gradient(to bottom, #22c0f8, #1dbcf7, #1ab8f6, #1ab3f5, #1baff4, #0daaf5, #01a6f6, #00a1f7, #009bfa, #0094fc, #008dfe, #0085ff);
+}
+
+.photoLabelText{
+    -fx-font-size: 20;
+}
