@@ -13,9 +13,12 @@ Program umożliwia modyfikację:
 - ścieżki do katalogu z zamówieniami
 - formatów zdjęć wraz z ich cenami (za jedną sztukę)
 
-# Zrzuty ekranu
-![Screenshot](screenshots/screenshot1.png)
+# Demo
+![](demo/pomDemo.gif)
 
-![Screenshot](screenshots/screenshot2.png)
+# Zrzuty ekranu
+![Screenshot](demo/screenshot1.png)
+
+![Screenshot](demo/screenshot2.png)
 
 
